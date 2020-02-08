@@ -69,11 +69,7 @@ class Owner
   end
 
   def list_pets
-    counter = 0
-    pets.each do |species, animals|
-      animals.each do |animal|
-        puts "You have "
-        counter += 1
+    "I have #{pets[:fish].count} fish, #{pets[:dogs].count} dog(s), and #{pets[:cats].count} cat(s)."
 
       end
     end
