@@ -41,7 +41,9 @@ class Owner
     pets[:dogs] << Dog.new(dog_name)
   end
 
-  def walk_dogs
-    Dog.mood = "happy"
-  end
+  binding.pry
+
+  #def walk_dogs
+  #  Dog.mood = "happy"
+#  end
 end
