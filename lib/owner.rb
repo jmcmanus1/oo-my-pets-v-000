@@ -70,8 +70,8 @@ class Owner
 
   def list_pets
     pets.each do |species, animals|
+      binding.pry
       animals.each do |animal|
-        binding.pry
       end
     end
   end
