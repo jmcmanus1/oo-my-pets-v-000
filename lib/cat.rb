@@ -6,8 +6,10 @@ class Cat
     @name = name
     @mood = "nervous"
   end
-  
+
   def mood
     @mood
   end
 end
+
+binding.pry
