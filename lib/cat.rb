@@ -8,5 +8,6 @@ class Cat
 
   def mood
     @mood
+    binding.pry
   end
 end
