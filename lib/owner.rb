@@ -60,8 +60,7 @@ class Owner
   end
 
   def sell_pets
-    pets[ , , , ].each_key do |pet|
-      pet.mood = "nervous"
+    pets.tap{|x| x.mood = "nervous"}
     end
   end
 end
