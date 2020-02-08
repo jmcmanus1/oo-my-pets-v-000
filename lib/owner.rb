@@ -69,9 +69,12 @@ class Owner
   end
 
   def list_pets
+    counter = 0
     pets.each do |species, animals|
-      binding.pry
       animals.each do |animal|
+        puts "You have "
+        counter += 1
+      
       end
     end
   end
