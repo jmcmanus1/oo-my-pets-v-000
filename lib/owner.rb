@@ -72,4 +72,7 @@ class Owner
     pets.each do |species, animals|
       animals.each do |animal|
         binding.pry
+      end
+    end
+  end
 end
