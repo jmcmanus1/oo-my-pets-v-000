@@ -60,7 +60,7 @@ class Owner
   end
 
   def sell_pets
-    pets.tap{|x| x.mood = "nervous"}
+    pets.tap{|p| p.mood = "nervous"}
     end
   end
 end
