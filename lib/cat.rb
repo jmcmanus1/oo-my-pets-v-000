@@ -13,5 +13,3 @@ class Cat
     @mood
   end
 end
-
-binding.pry
