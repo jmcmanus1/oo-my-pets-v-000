@@ -3,12 +3,12 @@ class Owner
 
 @@owners = []
 
-def initialize(name)
-  @name = name
-  @@owners << self
-end
+  def initialize(name)
+    @name = name
+    @@owners << self
+  end
 
-  self.all
-  @@owners
-
+  def self.all
+    @@owners
+  end
 end
