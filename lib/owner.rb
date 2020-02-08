@@ -9,7 +9,7 @@ class Owner
     @species = "human"
     @@owners << self
     @pets = {}
-    
+
   end
 
   def self.all
