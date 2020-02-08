@@ -1,4 +1,4 @@
-class cat
+class Cat
 
 
 end
