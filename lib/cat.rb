@@ -1,5 +1,6 @@
 class Cat
-  attr_reader :name, :mood
+  attr_accessor :mood
+  attr_reader :name
 
   def initialize(name)
     @name = name
@@ -8,6 +9,5 @@ class Cat
 
   def mood
     @mood
-    binding.pry
   end
 end
