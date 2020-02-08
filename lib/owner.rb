@@ -8,7 +8,7 @@ class Owner
     @name = name
     @species = "human"
     @@owners << self
-    @pets = {fihes: [], dogs: [], cats: []}
+    @pets = {fishes: [], dogs: [], cats: []}
 
 
   end
