@@ -61,6 +61,5 @@ class Owner
 
   def sell_pets
     pets.tap{|p| p.mood = "nervous"}
-    end
   end
 end
