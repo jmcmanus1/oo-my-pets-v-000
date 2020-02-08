@@ -60,7 +60,7 @@ class Owner
   end
 
   def sell_pets
-    pets.each_key do |pet|
+    pets[ , , , ].each_key do |pet|
       pet.mood = "nervous"
     end
   end
