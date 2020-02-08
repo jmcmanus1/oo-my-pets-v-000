@@ -74,7 +74,7 @@ class Owner
       animals.each do |animal|
         puts "You have "
         counter += 1
-      
+
       end
     end
   end
