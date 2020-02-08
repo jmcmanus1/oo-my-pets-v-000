@@ -40,7 +40,7 @@ class Owner
   end
 
   def  walk_dogs
-    Dog.all.mood =
+    Dog.mood = "happy"
     binding.pry
   end
 end
