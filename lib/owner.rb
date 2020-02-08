@@ -64,7 +64,12 @@ class Owner
       animals.each do |animal|
         animal.mood = "nervous"
       end
-      animals.clear 
+      animals.clear
     end
   end
+
+  def list_pets
+    pets.each do |species, animals|
+      animals.each do |animal|
+        binding.pry
 end
